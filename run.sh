@@ -23,7 +23,7 @@ sed -i 's/20016/'$CHAT'/g' $DESTINATION/docker-compose.yml
 
 
 # run Odoo
-docker-compose -f $DESTINATION/docker-compose.yml up -d
+docker compose -f $DESTINATION/docker-compose.yml up -d
 
 
 
