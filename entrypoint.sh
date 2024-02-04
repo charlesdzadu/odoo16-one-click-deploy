@@ -49,3 +49,9 @@ case "$1" in
 esac
 
 exit 1
+
+
+
+
+
+curl -s https://raw.githubusercontent.com/charlesdzadu/odoo16-one-click-deploy/main/run.sh | sudo bash -s ~/odoo_projects/AugAfi 10016 20016
